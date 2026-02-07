@@ -29,6 +29,19 @@ body {
   min-height: 100vh;
 }
 
+.hero-top-text {
+  position: absolute;
+  top: 40px; /* makin kecil = makin ke atas */
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: 4px;
+  font-size: 1.90rem;
+  text-transform: uppercase;
+  opacity: 0.8;
+  z-index: 5;
+}
+
 .hero h1,
 .hero h4,
 .hero p {
@@ -499,4 +512,13 @@ footer li {
   font-family: 'Sacramento';
   font-size: 5rem;
   font-weight: bold;
+}
+
+.the-wedding {
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: 4px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-bottom: 12px;
+  opacity: 0.8;
 }
