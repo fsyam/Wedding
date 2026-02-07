@@ -522,3 +522,7 @@ footer li {
   margin-bottom: 12px;
   opacity: 0.8;
 }
+
+#gifts .btn {
+  min-width: 220px;
+}
