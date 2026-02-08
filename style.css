@@ -51,6 +51,8 @@ body {
 .hero h1 {
   font-family: 'Sacramento', cursive;
   font-size: 6rem;
+  margin-top: 0.5rem;
+  transform: translateY(-250px);
 }
 
 .hero h4 {
@@ -70,6 +72,10 @@ body {
 .hero a:hover {
   background-color: var(--pink);
   color: white;
+}
+
+.hero-top-text {
+  margin-bottom: 0.5rem;
 }
 
 .mynavbar {
