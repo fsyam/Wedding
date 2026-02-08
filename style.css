@@ -52,7 +52,7 @@ body {
   font-family: 'Sacramento', cursive;
   font-size: 6rem;
   margin-top: 0.5rem;
-  transform: translateY(-250px);
+  transform: translateY(-190px);
 }
 
 .hero h4 {
@@ -532,3 +532,4 @@ footer li {
 #gifts .btn {
   min-width: 220px;
 }
+
